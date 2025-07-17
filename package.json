@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/manuch7728/newbackend/issues"
   },
-  "homepage": "https://github.com/manuch7728/newbackend#readme"
+  "homepage": "https://github.com/manuch7728/newbackend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
