@@ -1,3 +1,3 @@
 # newbackend
-a new repo for my backend role
+a new repo for my backend project
 chai or backend => with javascript 
