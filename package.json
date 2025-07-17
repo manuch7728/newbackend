@@ -1,0 +1,23 @@
+{
+  "name": "newbackend",
+  "version": "1.0.0",
+  "description": "a full backend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuch7728/newbackend.git"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "Manu Chauhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuch7728/newbackend/issues"
+  },
+  "homepage": "https://github.com/manuch7728/newbackend#readme"
+}
