@@ -2,9 +2,10 @@
   "name": "newbackend",
   "version": "1.0.0",
   "description": "a full backend project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/manuch7728/newbackend/issues"
   },
-  "homepage": "https://github.com/manuch7728/newbackend#readme",
-  "devDependencies": {
-    "nodemon": "^3.1.10"
-  }
+  "homepage": "https://github.com/manuch7728/newbackend#readme"
 }
