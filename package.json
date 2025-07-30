@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/manuch7728/newbackend/issues"
   },
-  "homepage": "https://github.com/manuch7728/newbackend#readme"
+  "homepage": "https://github.com/manuch7728/newbackend#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0",
+    "nodemon": "^3.1.10"
+  }
 }
