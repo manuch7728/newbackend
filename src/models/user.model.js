@@ -81,7 +81,6 @@ return jwt.sign({
     }
 )
 }
-
 userSchema.method.generateRefreshToken=function(){
     return jwt.sign({
         _id:this.id,
