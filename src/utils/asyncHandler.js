@@ -1,11 +1,9 @@
-const asyncHandler=()=>{
-    (req,res,next)=> {
-        Promise.resolve(requestHandler(req,res,next))
-        .catch((err)=>next(err))
-    }
-}
+// Utility to handle async errors in Express routes
+const asyncHandler = (fn) => (req, res, next) => {
+    Promise.resolve(fn(req, res, next)).catch(next);
+};
 
-export {asyncHanler}
+export { asyncHandler }; // Fixed export name
 
 /*
 
